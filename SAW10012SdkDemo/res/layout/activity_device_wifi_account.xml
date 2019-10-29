@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/page_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    
+       <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginTop="18dp"    
+        android:text="@string/cur_connect_wifi"
+        android:textColor="@color/COLOR_4"
+        android:textSize="@dimen/Title_5" />
+
+
+    <TextView
+        android:id="@+id/tv_cur_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:paddingBottom="10dp"
+        android:paddingTop="6dp"
+        android:textColor="@color/COLOR_3"
+        android:textSize="@dimen/Title_3" />
+    
+    
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginTop="15dp"
+        android:text="@string/login_password"
+        android:textColor="@color/COLOR_4"
+        android:textSize="@dimen/Title_5" />
+        
+      <EditText
+            android:id="@+id/et_wifi_pwd"        
+        	android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:hint="@string/input_wifi_password"
+            android:paddingBottom="10dp"
+            android:paddingTop="6dp"
+            android:textSize="@dimen/Title_3"/>
+          
+     <Button
+        android:id="@+id/btn_next"
+      	android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_marginTop="50dp"   
+        android:text="@string/next_step"
+        android:textAllCaps="false" />
+</LinearLayout>
